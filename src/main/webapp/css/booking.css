@@ -1,0 +1,337 @@
+.booking-form{
+	background: #eeeeee;
+	height: 950px;
+	width: 100%;
+	margin-top: 110px;
+	padding-top: 15px
+}
+body{
+	
+}
+.container1{
+	width: 890px;
+	height: 800px;
+	padding:30px 30px;
+	margin-left: 30px;
+	margin-right: 20px;
+	background: white;
+	margin-top: 35px;
+	border-radius: 15px;
+}
+
+.container2{
+	width: 480px;
+	height: 400px;
+	padding:3px 3px;
+	background: #eeeeee;
+	margin-top: 30px;
+}
+.form{
+	display: flex;
+	align-items: horizontal;
+}
+.line1{
+	display: flex;
+	align-items: horizontal;
+}
+.line2{
+	display: flex;
+	align-items: horizontal;
+}
+.line4{
+	display: flex;
+	align-items: horizontal;
+}
+.abc{
+	display: flex;
+	align-items: horizontal;
+	width: 130px;
+}
+.l1{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 23px;
+	color: #ae0000;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.l3{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 23px;
+	color: #ae0000;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.logo2{
+	width: 22px;
+	height: 22px;
+	margin-top: 7px;	
+	
+}
+.logo3{
+	width: 24px;
+	height: 24px;
+	margin-top: -2px;
+}
+.l4{
+	margin-left: 125px;
+	padding-right: 3px;
+	width: 35px;
+	text-align: right;
+	align-items: right;
+}
+.l5{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 24px;
+	color: #400000;
+	font-weight: bold;
+	width: 70px;
+	text-align: right;
+	align-items: right;
+}
+.l6{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 16px;
+	color: black;
+	font-weight:bold;
+	width: 140px;
+}
+.l7{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 16px;
+	color: black;
+	font-weight:bold;
+	margin-left: 85px;
+}
+.l8{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 25px;
+	width: 200px;
+	color: black;
+	font-weight:bold;
+}
+.l9{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 28px;
+	color: black;
+	font-weight:bold;
+	margin-left: 60px;
+	margin-top: -13px;
+}
+
+.l10{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 14px;
+	color: black;
+	font-weight:bold;
+	margin-top: -8px;
+}
+hr{
+	color: black;
+	margin-top: 50px;
+	width: 95%;
+}
+.logo{
+	padding-left: 2px;
+	padding-right: 2px;
+	width: 30px;
+}
+.heading1{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+.heading2{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 14px;
+	color: #929292;
+	font-weight:bold;
+	margin-top: -8px;
+	padding-bottom: 20px;
+}
+
+.form-submit {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  background: #55a81e;
+  color: #fff;
+  width: 74%;
+  padding: 15px 39px;
+  border-radius: 8px;
+  margin-top: 55px;
+  border: 1.5px solid black;
+  margin-left: 55px;
+  
+}
+  
+  .form-submit:hover {
+  	cursor: pointer;
+    background: #3a7414;
+    box-shadow: 0 18px 18px 0 rgba(0,0,0,0.34), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  
+.logo4{
+	height: 16px;
+	width: 16px;
+}
+
+.input1{
+	margin-right: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.input1 input, select{
+	padding: 10px;
+}
+
+.input1 input:focus{
+	outline: 0;
+    border: 2px solid #f7941d;
+}
+.input2 input:focus{
+	outline: 0;
+    border: 2px solid #f7941d;
+}
+
+.input2{
+	margin-right: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.input2 input{
+	padding: 10px;
+	width: 175px;
+}
+.input1 label{
+	margin-left: 10px;
+}
+.input2 label{
+	margin-left: 10px;
+}
+.agree-term label{
+	font-size: 16px;
+}
+.agree-term input{
+	height: 20px;
+	width: 20px;
+	margin-top: 10px;
+}
+.agree-term{
+	margin-top: 0px;
+}
+
+
+.heading2 {
+  position: relative;
+  display: inline-block;
+}
+
+
+
+
+
+/* Pointer */
+.logo4 {
+  position: relative;
+  cursor: pointer;
+}
+
+.logo4:hover + .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.tooltip-text {
+  position: absolute;
+  top: calc(100% + 5px); /* Add some distance between the label and the tooltip */
+  left: 94%;
+  transform: translateX(-50%);
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  width: 320px;
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+.tooltip-text::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%; /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -10px; /* Adjust the arrow width */
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #333 transparent;
+  cursor: pointer;
+}
+
+.part1 {
+    display: flex;
+	flex-direction: column;
+}
+.part1 input{
+    margin-top: -24px;
+}
+
+
+/* .part1 {
+        position: relative;
+    }
+
+    .part1 label {
+        position: absolute;
+        left: 5px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .part1 input {
+        padding-left: 25px;
+        margin-left: 10px;
+    } */
+
+.errorclass {
+	color: red;
+    margin-top: -2px;
+    margin-left: 1px;
+    font-size: 13px;
+    margin-top: -2px;
+	position: relative;
+	color: red;
+}
+    
+.form-submit .img {
+  margin-left: 5px;
+  opacity: 0;
+  color: black;
+}
+
+.form-submit:hover .img {
+  opacity: 1;
+  color: black;
+}
+
+.form-submit .img img {
+	width: 30px;
+	height: 10px;
+  font-size: 10px;
+  color: black;
+}
+	    
+	    
+	
+
+
+ 
+ 
+ 
+ 
+ 
+ 

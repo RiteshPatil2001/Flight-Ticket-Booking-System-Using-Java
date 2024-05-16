@@ -1,0 +1,355 @@
+
+.container1{
+	width: 100%;
+	position: relative;
+}
+
+
+.video-container {
+    position: relative;
+    display: inline-block; /* Ensures the container takes only the required width */
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* Ensures the video covers the entire container */
+}
+
+.headinglabel {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-family: sitka small;
+    font-weight: bolder;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    width: 1200px;
+    transform: translate(-50%, -50%);
+	
+    
+}
+
+
+
+.flightpagebutton {
+  /* Your existing styles */
+  padding: 20px 20px;
+  border: none;
+  top: 80%;
+  left: 50%;
+  /* margin-left: 45rem;
+  margin-bottom: 70rem; */
+  border-radius: 90px;
+  font-family: Palatino Linotype;
+  font-weight: 900;
+  font-size: 25px;
+  width: 35%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: white;
+  cursor: pointer;
+  overflow: hidden;
+  /* background-image: linear-gradient(to right, #FF8C00, #FFD700); */
+  background-image: linear-gradient(to right, #0a8f27, #4CAF50, #FFD700);
+  background-size: 200% 100%;
+  transition: background-position 0.3s ease;
+  transition: padding 0.3s ease;
+}
+
+.flightpagebutton .img {
+  margin-left: 5px;
+  opacity: 0;
+  color: black;
+}
+
+.flightpagebutton:hover .img {
+  opacity: 1;
+  color: black;
+}
+
+.flightpagebutton .img img {
+	width: 30px;
+	height: 10px;
+  font-size: 10px;
+  color: black;
+}
+
+
+.flightpagebutton:hover,
+.flightpagebutton:focus {
+  /* Set the gradient styles for the button on hover */
+  background-image: linear-gradient(to right, #0a8f27, #4CAF50, #FFD700);
+  color: black;
+  outline: 5px solid #0a8f27; /* Set the outline properties on hover */
+  outline-offset: 5px; /* Set the outline-offset on hover */
+  font-size: 25px;
+  width: 33%;
+  padding: 18px 18px;
+}
+
+.btn1{
+	padding: 10px 10px;
+	border: 1px solid black;
+	border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hide the default video controls */
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+video::-webkit-media-controls-enclosure {
+    display: none !important;
+}
+
+video::-webkit-media-controls-panel {
+    display: none !important;
+}
+
+video::-webkit-media-controls-play-button {
+    display: none !important;
+}
+
+video::-webkit-media-controls-start-playback-button {
+    display: none !important;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.flex-container {
+  position: relative;
+  height: 85vh; /* Initial height */
+  width: 97%;
+  margin: 20px 20px;
+  display: flex;
+  overflow: hidden;
+  /* Apply the new animation */
+  animation: flexContainerEnlarge 500ms ease;
+}
+
+@media screen and (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+.flex-title {
+  color: #f1f1f1;
+  position: relative;
+  font-size: 3.5vw; /* Reduced font size */
+  text-align: center;
+  transform: rotate(90deg);
+  top: 15%;
+  /* Apply a transition to .flex-title for smooth rotation */
+  transition: transform 500ms ease;
+  white-space: nowrap; /* Prevent title from wrapping */
+  max-width: 100%; /* Limit the title width */
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .flex-title {
+    transform: rotate(0deg) !important;
+  }
+}
+
+.flex-about {
+  opacity: 0;
+  color: #f1f1f1;
+  position: relative;
+  font-size: 1.5vw; /* Reduced font size */
+  padding: 5%;
+  margin: 70px;
+  top: 20%;
+  border: 2px solid #f1f1f1;
+  border-radius: 10px;
+  line-height: 1.3;
+  text-align: center;
+  transform: rotate(0deg);
+  /* Apply a transition to .flex-about for opacity change */
+  transition: opacity 500ms ease;
+}
+
+@media screen and (max-width: 768px) {
+  .flex-about {
+    padding: 0%;
+    border: 0px solid #f1f1f1;
+  }
+}
+
+.flex-slide {
+  flex: 1;
+  cursor: pointer;
+  /* Apply a transition to .flex-slide for smooth flex-grow animation */
+  transition: flex-grow 500ms ease;
+  overflow: hidden;
+  position: relative; /* Add this to stack the content over the title */
+}
+
+.flex-slide p {
+  font-size: 1.2em; /* Reduced font size */
+}
+
+.flex-slide ul li {
+  font-size: 1.2em; /* Reduced font size */
+}
+
+.flex-slide:hover {
+  flex-grow: 3;
+}
+
+/* Background images for each slide */
+.home {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/lake-macquarie-71208_1920.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.about {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/beach-2089959_1280.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/lake-696098_1920.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  /* Add the following styles to center the content and make it similar to travel and offers */
+}
+
+
+.work {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/forest-208517_1280.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+/* Keyframes and animations */
+@keyframes flexContainerEnlarge {
+  0% {
+    height: 85vh;
+  }
+  100% {
+    height: 100vh;
+  }
+}
+
+/* Hover animations */
+.flex-slide:hover .flex-title {
+  transform: rotate(0deg);
+  top: 10%;
+}
+
+.flex-slide:hover .flex-about {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+

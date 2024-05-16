@@ -1,0 +1,13 @@
+/* @extend display-flex; */
+display-flex {
+    display: flex;
+    display: -webkit-flex;
+}
+/* @extend list-type-ulli; */
+list-type-ulli {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: rgb(186, 169, 169);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
