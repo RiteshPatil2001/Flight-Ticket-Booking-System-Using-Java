@@ -29,7 +29,9 @@ FlyEase is a flight ticket booking system built using Java Spring Boot MVC frame
 
 4. Activate Payment Integration:
    - Open `src/main/webapp/WEB-INF/views/booking.jsp` file.
-   - Go to line number 343 and replace `razorpay-text-api-id` with your Razorpay API ID to activate payment integration.
+   - Go to line number 343 and replace `razorpay-text-api-id` with your Razorpay API ID.
+   - Open `src/main/java/controller/UserController.java` file.
+   - Go to line number 173 and replace `razorpay-text-api-id` and `razorpay-secret-ID` with your API's ID to activate payment integration.
 
 5. Run the application:
    ```bash
