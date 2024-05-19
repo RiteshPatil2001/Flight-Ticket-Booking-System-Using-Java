@@ -1,6 +1,6 @@
 <%@ page import="java.sql.*" %>
 <%@ page import="java.util.List" %>
-<%@ page import="com.eBookManagementSytem.models.AllUsers" %>
+<%@ page import="com.flightticketbookingSystem.models.AllUsers" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>

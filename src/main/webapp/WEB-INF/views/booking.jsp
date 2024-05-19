@@ -340,7 +340,7 @@
                             // Redirect to the Razorpay payment form with the order ID
                             var options = {
                             	order_id: orderId,
-                                key: "", //enter your razorpay account API ID
+                            	key: "", //enter your razorpay account API ID, //enter your razorpay account API ID
                            	    amount: $("#payment_field").val(),
                 				currency: "INR",
                 				name: "FlyEase",
@@ -357,7 +357,7 @@
                                     contact: "",
                                 },
                                 notes:{
-            						address: "Ritesh",
+            						address: "Anjaaaa",
             					},
                                 theme: {
                                     color: "#3399cc",
